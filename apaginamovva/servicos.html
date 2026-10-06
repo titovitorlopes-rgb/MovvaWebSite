@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOVVA - Our Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html#home" class="brand-logo" aria-label="MOVVA Home">
+        <img src="logo-movva.png" alt="MOVVA" class="logo-image">
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html#home" class="nav-link">Home</a>
+        <a href="servicos.html" class="nav-link active">Services</a>
+        <a href="index.html#sobre" class="nav-link">About</a>
+        <a href="precos.html" class="nav-link">Pricing</a>
+      </nav>
+
+      <div class="nav-action">
+        <a href="https://wa.me/5519998511181?text=Hello!%20I%20would%20like%20to%20discuss%20a%20project%20with%20MOVVA" target="_blank" class="btn-talk">
+          <span>Let's Talk</span>
+          <svg class="arrow-svg" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       SERVICES PAGE (Separate Page)
+       1) Ocean Hero with custom white wave & features bar (DeveIncioServico)
+       2) Services details with laptop/phone illustration and 4 feature items (ComoDeveSerqQuandoRola)
+       3) Bottom section with metrics and testimonials on clean white background (ParteDeBaixo)
+       ========================================================================= -->
+  <main class="services-wrapper">
+    <!-- 1. Ocean Hero (DeveIncioServico) -->
+    <section class="services-hero">
+      <div class="services-hero-bg">
+        <img src="background_servicos.png" alt="MOVVA Ocean Scenery" class="services-bg-img" fetchpriority="high">
+        <div class="services-video-overlay"></div>
+      </div>
+
+      <div class="services-hero-content">
+        <div class="services-kicker">OUR SERVICES</div>
+        <h1 class="services-hero-title">
+          <span>Complete digital</span>
+          <span>solutions for</span>
+          <span>your growth.</span>
+        </h1>
+        <p class="services-hero-subtitle">
+          From concept to results, we deliver tailored services to turn your online presence into real opportunities.
+        </p>
+        <div class="services-hero-cta">
+          <a href="#servicos-detalhes" class="btn-services-cta">
+            <span>Explore Our Services</span>
+            <svg class="arrow-svg" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Bottom wave over ocean hero with features bar -->
+      <div class="wave-container" aria-hidden="false">
+        <svg class="wave-svg-graphic" viewBox="0 0 1024 576" preserveAspectRatio="none">
+          <path class="wave-desktop-path" d="M 0 409.0 L 3 409.0 L 6 409.14 L 9 409.57 L 12 410.14 L 15 410.57 L 18 411.14 L 21 411.57 L 24 412.14 L 27 412.57 L 30 413.43 L 33 414.14 L 36 414.86 L 39 415.71 L 42 416.71 L 45 417.71 L 48 418.71 L 51 419.71 L 54 420.71 L 57 421.86 L 60 423.0 L 63 424.14 L 66 425.29 L 69 426.43 L 72 427.71 L 75 429.29 L 78 430.57 L 81 431.86 L 84 433.29 L 87 434.71 L 90 436.29 L 93 437.71 L 96 439.29 L 99 440.71 L 102 442.29 L 105 443.71 L 108 445.29 L 111 446.71 L 114 448.43 L 117 450.0 L 120 451.43 L 123 452.86 L 126 454.29 L 129 455.57 L 132 456.71 L 135 457.71 L 138 458.71 L 141 459.57 L 144 460.29 L 147 460.71 L 150 461.29 L 153 461.71 L 156 462.0 L 159 462.0 L 162 462.0 L 165 462.0 L 168 462.0 L 171 461.71 L 174 461.29 L 177 460.86 L 180 460.43 L 183 459.71 L 186 459.14 L 189 458.43 L 192 457.57 L 195 456.71 L 198 455.71 L 201 454.57 L 204 453.43 L 207 452.14 L 210 450.86 L 213 449.57 L 216 448.29 L 219 446.86 L 222 445.71 L 225 444.71 L 228 443.71 L 231 442.71 L 234 442.0 L 237 441.43 L 240 440.71 L 243 440.29 L 246 440.0 L 249 439.57 L 252 439.14 L 255 439.0 L 258 439.0 L 261 439.0 L 264 439.0 L 267 439.0 L 270 439.0 L 273 439.29 L 276 439.71 L 279 440.0 L 282 440.43 L 285 441.0 L 288 441.57 L 291 442.29 L 294 443.0 L 297 444.0 L 300 444.86 L 303 445.86 L 306 447.0 L 309 448.29 L 312 449.57 L 315 450.86 L 318 452.29 L 321 453.71 L 324 455.29 L 327 456.71 L 330 458.29 L 333 459.71 L 336 461.29 L 339 462.71 L 342 464.43 L 345 466.14 L 348 468.0 L 351 469.71 L 354 471.29 L 357 472.86 L 360 474.57 L 363 476.29 L 366 477.71 L 369 479.29 L 372 481.0 L 375 482.71 L 378 484.29 L 381 485.71 L 384 487.29 L 387 488.71 L 390 490.29 L 393 491.71 L 396 493.14 L 399 494.57 L 402 495.86 L 405 497.29 L 408 498.71 L 411 500.0 L 414 501.14 L 417 502.43 L 420 503.71 L 423 505.0 L 426 506.14 L 429 507.43 L 432 508.57 L 435 509.86 L 438 511.0 L 441 512.0 L 444 513.0 L 447 514.14 L 450 515.14 L 453 516.0 L 456 517.14 L 459 518.14 L 462 519.0 L 465 520.0 L 468 520.86 L 471 521.57 L 474 522.43 L 477 523.29 L 480 524.0 L 483 524.71 L 486 525.57 L 489 526.29 L 492 526.86 L 495 527.57 L 498 528.43 L 501 528.86 L 504 529.43 L 507 530.0 L 510 530.57 L 513 531.29 L 516 531.71 L 519 532.14 L 522 532.57 L 525 533.43 L 528 533.86 L 531 534.43 L 534 535.0 L 537 535.57 L 540 536.43 L 543 537.14 L 546 538.0 L 549 538.86 L 552 539.57 L 555 540.43 L 558 541.29 L 561 542.29 L 564 543.43 L 567 544.57 L 570 545.71 L 573 546.86 L 576 548.14 L 579 549.43 L 582 550.71 L 585 552.29 L 588 553.71 L 591 555.29 L 594 556.71 L 597 558.29 L 600 559.86 L 603 561.57 L 606 563.0 L 608 563.5 L 609 570.0 L 610 576.0 L 610 576 L 0 576 Z" fill="#ffffff"/>
+          <path class="wave-mobile-path" d="M 0 490 Q 512 390 1024 490 L 1024 576 L 0 576 Z" fill="#ffffff"/>
+        </svg>
+
+        <div class="features-bar">
+          <!-- Item 1: Modern websites -->
+          <div class="feature-item">
+            <div class="feature-icon-wrapper">
+              <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <span class="feat-label">Modern</span>
+              <span class="feat-name">websites</span>
+            </div>
+          </div>
+
+          <div class="feature-sep" role="separator"></div>
+
+          <!-- Item 2: Responsive design -->
+          <div class="feature-item">
+            <div class="feature-icon-wrapper">
+              <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <span class="feat-label">Responsive</span>
+              <span class="feat-name">design</span>
+            </div>
+          </div>
+
+          <div class="feature-sep" role="separator"></div>
+
+          <!-- Item 3: Specialized support -->
+          <div class="feature-item">
+            <div class="feature-icon-wrapper">
+              <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <span class="feat-label">Specialized</span>
+              <span class="feat-name">support</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Services Scrolled View (ComoDeveSerqQuandoRola) -->
+    <section id="servicos-detalhes" class="services-details-section">
+      <div class="services-details-container">
+        <!-- Left Column: Title, Subtitle, CTA, and 4 Service items -->
+        <div class="services-details-left">
+          <div class="services-detail-kicker">OUR SERVICES</div>
+          <h2 class="services-detail-title">
+            From planning to delivery, everything tailored to you.
+          </h2>
+          <p class="services-detail-subtitle">
+            We build modern, fast websites ready for your growth. Every project is unique, just like your business.
+          </p>
+
+          <div class="services-detail-cta">
+            <a href="https://wa.me/5519998511181?text=Hello!%20I%20would%20like%20to%20request%20a%20quote%20for%20my%20project%20with%20MOVVA" target="_blank" class="btn-detail-cta">
+              <span>Request a quote</span>
+              <svg class="arrow-svg" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Middle Column: 4 Service Features with rounded icon pills -->
+        <div class="services-features-list">
+          <!-- Item 1: Website Development -->
+          <div class="service-feature-card">
+            <div class="service-pill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+                <line x1="10" y1="19" x2="14" y2="5"/>
+              </svg>
+            </div>
+            <div class="service-feature-text">
+              <h3 class="service-feature-heading">Website Development</h3>
+              <p class="service-feature-desc">Corporate websites, landing pages, and online stores with high performance.</p>
+            </div>
+          </div>
+
+          <!-- Item 2: Custom Design -->
+          <div class="service-feature-card">
+            <div class="service-pill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m19 11-8-8-8.6 8.6a2 2 0 0 0 0 2.8l5.2 5.2c.8.8 2 .8 2.8 0L19 11Z"/>
+                <path d="m5 2 5 5"/>
+                <path d="M2 13h15"/>
+                <path d="M22 20a2 2 0 1 1-4 0c0-1.6 1.7-2.4 2-4 .3 1.6 2 2.4 2 4Z"/>
+              </svg>
+            </div>
+            <div class="service-feature-text">
+              <h3 class="service-feature-heading">Custom Design</h3>
+              <p class="service-feature-desc">Modern visuals aligned with your brand and focused on the best user experience.</p>
+            </div>
+          </div>
+
+          <!-- Item 3: Full Responsiveness -->
+          <div class="service-feature-card">
+            <div class="service-pill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                <line x1="12" y1="18" x2="12.01" y2="18"/>
+              </svg>
+            </div>
+            <div class="service-feature-text">
+              <h3 class="service-feature-heading">Full Responsiveness</h3>
+              <p class="service-feature-desc">Your website flawless on any device: desktop, tablet, and mobile.</p>
+            </div>
+          </div>
+
+          <!-- Item 4: Specialized Support -->
+          <div class="service-feature-card">
+            <div class="service-pill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
+                <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
+              </svg>
+            </div>
+            <div class="service-feature-text">
+              <h3 class="service-feature-heading">Specialized Support</h3>
+              <p class="service-feature-desc">We are with you before, during, and after your project launch.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Nuvem and PcSite Graphic -->
+        <div class="services-device-mockup services-cloud-mockup">
+          <div class="cloud-pc-container">
+            <img src="Nuvem.png" alt="Illustrative Cloud" class="mockup-cloud-img" loading="lazy" draggable="false">
+            <img src="PcSite.png" alt="MOVVA on Desktop" class="mockup-pc-img" loading="lazy" draggable="false">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Bottom Information Section (ParteDeBaixo) with Metrics and Testimonial -->
+    <section class="services-bottom-section">
+      <div class="services-bottom-bg">
+        <img src="partedebaixo_wave.png" alt="MOVVA Deep Ocean" class="bottom-bg-img" loading="lazy">
+      </div>
+
+      <div class="services-bottom-container">
+        <!-- Left: Results Header -->
+        <div class="bottom-results-left">
+          <div class="bottom-kicker">RESULTS THAT SPEAK</div>
+          <h2 class="bottom-title">
+            <span>More than websites,</span>
+            <span>true partnerships.</span>
+          </h2>
+          <p class="bottom-subtitle">
+            Numbers that show the impact of a high-performance website on your business growth.
+          </p>
+        </div>
+
+        <!-- Middle: Three Metrics -->
+        <div class="bottom-metrics-group">
+          <!-- Metric 1 -->
+          <div class="bottom-metric-item">
+            <svg class="metric-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+            <span class="metric-value">+150</span>
+            <span class="metric-label">Projects delivered</span>
+          </div>
+
+          <!-- Metric 2 -->
+          <div class="bottom-metric-item">
+            <svg class="metric-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+              <line x1="9" y1="9" x2="9.01" y2="9"/>
+              <line x1="15" y1="9" x2="15.01" y2="9"/>
+            </svg>
+            <span class="metric-value">98%</span>
+            <span class="metric-label">Satisfied clients</span>
+          </div>
+
+          <!-- Metric 3 -->
+          <div class="bottom-metric-item">
+            <svg class="metric-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+              <polyline points="17 6 23 6 23 12"/>
+            </svg>
+            <span class="metric-value">+300%</span>
+            <span class="metric-label">Average website traffic increase</span>
+          </div>
+        </div>
+
+        <!-- Right: Testimonial Card with Carousel Controls -->
+        <div class="bottom-testimonial-wrapper">
+          <div class="testimonial-header">
+            <span class="testimonial-kicker">WHAT OUR CLIENTS SAY</span>
+          </div>
+          <div class="testimonial-card">
+            <svg class="testimonial-border-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+              <rect class="testimonial-border-rect" x="1" y="1" width="98" height="98" rx="16" fill="none" stroke="#77c7fd" stroke-width="2" vector-effect="non-scaling-stroke"/>
+            </svg>
+            <div class="testimonial-quote-icon">“</div>
+            <p class="testimonial-quote">
+              "The result exceeded our expectations! The website looks incredible and the service was flawless."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                </svg>
+              </div>
+              <div class="author-info">
+                <span class="author-name">Lucas Ferreira</span>
+                <span class="author-role">CEO, Nova Web</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="testimonial-controls">
+            <button class="carousel-btn prev-btn" aria-label="Previous testimonial">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 12L6 8L10 4"/>
+              </svg>
+            </button>
+            <button class="carousel-btn next-btn" aria-label="Next testimonial">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 12L10 8L6 4"/>
+              </svg>
+            </button>
+            <div class="carousel-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="animations.js"></script>
+</body>
+</html>
